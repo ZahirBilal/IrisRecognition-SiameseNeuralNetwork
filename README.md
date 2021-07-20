@@ -6,7 +6,7 @@ We performed a one-shot multiple-ways (2, 4, 8, 16) learning on an IRIS images d
 Dataset used for training and testing: MMUII
 Dataset used for further tesging: UBIRIS v2.0
 
-please check the script, the presentation and the report for more details.
+please check the script, the presentation and the report in the data_script branch for more details.
 
 
 prepared by: Zahir Bilal
