@@ -8,5 +8,6 @@ Dataset used for further tesging: UBIRIS v2.0
 
 please check the script, the presentation and the report in the data_script branch for more details.
 
+brief explanation of the experiment: https://youtu.be/yHY5TXvVqpU
 
 prepared by: Zahir Bilal
