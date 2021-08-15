@@ -1,13 +1,36 @@
 # IrisRecognition-SiameseNeuralNetwork
 
-In this project we propose a various of nueral networks architicture for Iris recognition
-We performed a one-shot multiple-ways (2, 4, 8, 16) learning on an IRIS images dataset.
+One-shot or few-shots learning is an approach that aims to clas-
+sify objects based on few amount of data. In this project we explore
+the approach of few-shots learning by utilizing a Siamese Neural
+Network (SNN). In order to evaluate the impact of diﬀerent archi-
+tectures of SNN on its performance, we implemented two basic models
+with several variations: Siamese Convolutional Neural Network
+(SCNN) and Siamese multi-layer perceptron (SMLP). Finally
+we compared the performance of the diﬀerent structures of the SNN
+based on a ranking metric.
+
+A SNN can be modelled using any of the conventional neural networks
+architectures. The determination of the most suitable neural networks archi-
+tectures with their optimal hyperparameters in a SNN is usually dependant
+on the desired application and the the dataset. In overall, researches about
+the diﬀerent architectures of the Siamese neural network have not attracted
+the interest of the machine learning community. This research is an attempt
+to pave the way to propose approaches to deal with the question: How would
+changes at the architectural level aﬀect the performance of the SNN? To
+fulﬁll this purpose, we investigated the performance of an IRIS recognition
+Siamese Neural Network. The architecture details of the network were: The
+structure of the SNN, number of layers, size of the kernel of the CNN layers,
+size of the ﬁnal embedding layer. Finally, we analyzed the performance of
+the diﬀerent implemented networks based on their learning behavior and
+accuracy.
+
 
 Dataset used for training and testing: MMUII
-Dataset used for further tesging: UBIRIS v2.0
+Dataset used for further testing: UBIRIS v2.0
 
-please check the script, the presentation and the report in the data_script branch for more details.
+please check the script, the presentation and the report for more details.
 
 brief explanation of the experiment: https://youtu.be/yHY5TXvVqpU
 
-prepared by: Zahir Bilal
+Author: Zahir Bilal
