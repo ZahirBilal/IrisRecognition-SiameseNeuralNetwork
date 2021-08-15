@@ -1,0 +1,166 @@
+######### Net_1 #########
+
+The model architecture:
+
+ Net(
+  (conv1): Conv2d(1, 64, kernel_size=(10, 10), stride=(1, 1))
+  (conv2): Conv2d(64, 128, kernel_size=(7, 7), stride=(1, 1))
+  (conv3): Conv2d(128, 128, kernel_size=(4, 4), stride=(1, 1))
+  (conv4): Conv2d(128, 256, kernel_size=(4, 4), stride=(1, 1))
+  (fc1): Linear(in_features=9216, out_features=4096, bias=True)
+  (fcOut): Linear(in_features=4096, out_features=1, bias=True)
+  (sigmoid): Sigmoid()
+)
+
+The model has 38,951,745 trainable parameters
+
+######### Net_2 #########
+
+The model architecture:
+
+ Net(
+  (conv1): Conv2d(1, 64, kernel_size=(10, 10), stride=(1, 1))
+  (conv2): Conv2d(64, 128, kernel_size=(7, 7), stride=(1, 1))
+  (conv3): Conv2d(128, 128, kernel_size=(4, 4), stride=(1, 1))
+  (conv4): Conv2d(128, 256, kernel_size=(4, 4), stride=(1, 1))
+  (fc1): Linear(in_features=9216, out_features=4096, bias=True)
+  (fc2): Linear(in_features=4096, out_features=512, bias=True)
+  (fcOut): Linear(in_features=512, out_features=1, bias=True)
+  (sigmoid): Sigmoid()
+)
+
+The model has 41,045,825 trainable parameters
+
+
+######### Net_3 #########
+
+The model architecture:
+
+ Net(
+  (conv1): Conv2d(1, 64, kernel_size=(10, 10), stride=(1, 1))
+  (conv2): Conv2d(64, 128, kernel_size=(7, 7), stride=(1, 1))
+  (conv3): Conv2d(128, 128, kernel_size=(4, 4), stride=(1, 1))
+  (conv4): Conv2d(128, 256, kernel_size=(4, 4), stride=(1, 1))
+  (fc1): Linear(in_features=9216, out_features=4096, bias=True)
+  (fc2): Linear(in_features=4096, out_features=2048, bias=True)
+  (fc3): Linear(in_features=2048, out_features=512, bias=True)
+  (fcOut): Linear(in_features=512, out_features=1, bias=True)
+  (sigmoid): Sigmoid()
+)
+
+The model has 48,387,905 trainable parameters
+
+
+######### Net_4 #########
+
+The model architecture:
+
+ Net(
+  (conv1): Conv2d(1, 64, kernel_size=(10, 10), stride=(1, 1))
+  (conv2): Conv2d(64, 128, kernel_size=(7, 7), stride=(1, 1))
+  (conv3): Conv2d(128, 128, kernel_size=(4, 4), stride=(1, 1))
+  (conv4): Conv2d(128, 256, kernel_size=(4, 4), stride=(1, 1))
+  (conv5): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1))
+  (fc1): Linear(in_features=4096, out_features=4096, bias=True)
+  (fc2): Linear(in_features=4096, out_features=512, bias=True)
+  (fcOut): Linear(in_features=512, out_features=1, bias=True)
+  (sigmoid): Sigmoid()
+)
+
+The model has 20,664,385 trainable parameters
+
+
+
+
+######### Net_5 #########
+The model architecture:
+
+ Net(
+  (conv1): Conv2d(1, 64, kernel_size=(12, 12), stride=(1, 1))
+  (conv2): Conv2d(64, 128, kernel_size=(9, 9), stride=(1, 1))
+  (conv3): Conv2d(128, 128, kernel_size=(7, 7), stride=(1, 1))
+  (conv4): Conv2d(128, 256, kernel_size=(4, 4), stride=(1, 1))
+  (fc1): Linear(in_features=2304, out_features=1028, bias=True)
+  (fc2): Linear(in_features=1028, out_features=512, bias=True)
+  (fcOut): Linear(in_features=512, out_features=1, bias=True)
+  (sigmoid): Sigmoid()
+)
+
+The model has 4,897,349 trainable parameters
+
+
+
+
+######### Net_6 #########
+
+The model architecture:
+
+ Net(
+  (conv1): Conv2d(1, 64, kernel_size=(10, 10), stride=(1, 1))
+  (conv2): Conv2d(64, 128, kernel_size=(7, 7), stride=(1, 1))
+  (conv3): Conv2d(128, 256, kernel_size=(4, 4), stride=(1, 1))
+  (fc1): Linear(in_features=20736, out_features=4096, bias=True)
+  (fc2): Linear(in_features=4096, out_features=512, bias=True)
+  (fcOut): Linear(in_features=512, out_features=1, bias=True)
+  (sigmoid): Sigmoid()
+)
+
+The model has 87,969,473 trainable parameters
+
+
+
+
+
+######### MLP_1 #########
+
+The model architecture:
+
+ Net(
+  (fc1): Linear(in_features=11025, out_features=4096, bias=True)
+  (fc2): Linear(in_features=4096, out_features=2056, bias=True)
+  (fc3): Linear(in_features=2056, out_features=1028, bias=True)
+  (fcOut): Linear(in_features=1028, out_features=1, bias=True)
+  (sigmoid): Sigmoid()
+)
+
+The model has 55,701,553 trainable parameters
+
+
+
+
+######### MLP_2 #########
+
+
+The model architecture:
+
+ Net(
+  (fc1): Linear(in_features=11025, out_features=4096, bias=True)
+  (fc2): Linear(in_features=4096, out_features=2056, bias=True)
+  (fc3): Linear(in_features=2056, out_features=1028, bias=True)
+  (fc4): Linear(in_features=1028, out_features=512, bias=True)
+  (fcOut): Linear(in_features=512, out_features=1, bias=True)
+  (sigmoid): Sigmoid()
+)
+
+The model has 56,227,885 trainable parameters
+
+
+
+
+######### MLP_3 #########
+
+The model architecture:
+
+ Net(
+  (fc1): Linear(in_features=11025, out_features=4096, bias=True)
+  (fc2): Linear(in_features=4096, out_features=2048, bias=True)
+  (fc3): Linear(in_features=2048, out_features=1028, bias=True)
+  (fc4): Linear(in_features=1028, out_features=512, bias=True)
+  (fc5): Linear(in_features=512, out_features=128, bias=True)
+  (fcOut): Linear(in_features=128, out_features=1, bias=True)
+  (sigmoid): Sigmoid()
+)
+
+The model has 56,252,165 trainable parameters
+
+
