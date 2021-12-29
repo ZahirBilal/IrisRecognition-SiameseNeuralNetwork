@@ -1,4 +1,6 @@
-# IrisRecognition-SiameseNeuralNetwork
+# Iris Recognition - Siamese Neural Network
+
+![keras_siamese_networks_header](https://user-images.githubusercontent.com/87704717/147671007-f94423c5-15b8-4615-8828-8308ee396e0e.png)
 
 One-shot or few-shots learning is an approach that aims to classify objects based on few amount of data. 
 In this project we explore the approach of few-shots learning by utilizing a Siamese Neural Network (SNN). In order to evaluate the impact of diﬀerent architectures of SNN on its performance, we implemented two basic models with several variations: Siamese Convolutional Neural Network (SCNN) and Siamese multi-layer perceptron (SMLP). Finally we compared the performance of the diﬀerent structures of the SNN based on a ranking metric.
@@ -11,7 +13,7 @@ This research is an attempt to pave the way to propose approaches to deal with t
 Dataset used for training and testing: MMUII
 Dataset used for further testing: UBIRIS v2.0
 
-please check the script, the presentation and the report for more details.
+please see the script, the presentation and the report for more details.
 
 brief explanation of the experiment: https://youtu.be/yHY5TXvVqpU
 
