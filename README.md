@@ -11,6 +11,7 @@ This research is an attempt to pave the way to propose approaches to deal with t
 
 
 Dataset used for training and testing: MMUII
+
 Dataset used for further testing: UBIRIS v2.0
 
 please see the script, the presentation and the report for more details.
